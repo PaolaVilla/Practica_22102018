@@ -10,9 +10,15 @@ package ec.edu.ister.controlador;
  * @Instituto Rumiñahui
  * @author Paola
  */
-public class Aplicacion {
+public class Serie {
     
-    public static void main(String[] args) {
-        
-    }
+    int id;
+    String title;
+    String genero;
+    String creator;
+    int duration;
+    short year;
+    boolean viewed;
+    int sessionQuantity;
+
 }

@@ -10,9 +10,11 @@ package ec.edu.ister.controlador;
  * @Instituto Rumiñahui
  * @author Paola
  */
-public class Aplicacion {
-    
-    public static void main(String[] args) {
-        
-    }
+public class Book {
+
+    int id;
+    String nombre;
+    String editorial;
+    String genero;
+    int añoPublicacion;
 }

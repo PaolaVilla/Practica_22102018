@@ -10,9 +10,14 @@ package ec.edu.ister.controlador;
  * @Instituto Rumiñahui
  * @author Paola
  */
-public class Aplicacion {
-    
-    public static void main(String[] args) {
-        
-    }
+public class Movie {
+
+    int id;
+    String title;
+    String genero;
+    String creator;
+    int duration;
+    short year;
+    boolean viewed;
+    int timeViewed;
 }
